@@ -122,14 +122,14 @@ finally
 Pictures
 --------------------------------------------------------------------------------
 - Console
-<br>![Console](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Serilog_console.png?raw=true)
+<br>![Console](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/main//.NetCore-Angualr-Diagram-App//Documentation/Serilog_console.png?raw=true)
 - File Text Location
-<br>![File Text Location](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Serilog_File_Text.png?raw=true)
+<br>![File Text Location](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/main//.NetCore-Angualr-Diagram-App//Documentation/Serilog_File_Text.png?raw=true)
 - File Text Content
-<br> ![File Text Content](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Serilog_File_Text2.png?raw=true)
+<br> ![File Text Content](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/main//.NetCore-Angualr-Diagram-App//Documentation/Serilog_File_Text2.png?raw=true)
 - File Json Complect Formatter
-<br> ![File Json](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Serilog_File_Json.png?raw=true)
+<br> ![File Json](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/main//.NetCore-Angualr-Diagram-App//Documentation/Serilog_File_Json.png?raw=true)
 - File Json Sink Formatter
-<br> ![File Json Formatter](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Serilog_File_Json2.png?raw=true)
+<br> ![File Json Formatter](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/main//.NetCore-Angualr-Diagram-App//Documentation/Serilog_File_Json2.png?raw=true)
 - Database
-<br> ![Database](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Serilog_DataBase.png?raw=true)
+<br> ![Database](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/main//.NetCore-Angualr-Diagram-App//Documentation/Serilog_DataBase.png?raw=true)
