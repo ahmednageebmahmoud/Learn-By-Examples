@@ -1,0 +1,13 @@
+<ng-container *ngIf="utilsService.loggedUser.isLoggedIn; then userName ; else home ">
+</ng-container>
+
+<ng-template #home>
+    <div>
+        Home
+    </div>
+</ng-template>
+<ng-template #userName>
+    <div>
+        Home Welcome, {{utilsService.loggedUser.loogedUserInfo.userName}}
+    </div>
+</ng-template>
