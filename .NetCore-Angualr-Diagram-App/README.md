@@ -65,10 +65,10 @@ See also
 
 The links provided below will assist you in understanding every aspect of this app. 
 
-* Entity Freamwork Code First App: [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/main/LearnNetCoreWepAPI/Entity%20Framework)
-* JWT App: [jwt.io](https://jwt.io/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/main/LearnNetCoreWepAPI/LearnNetCoreWepAPI.Authorization)
-* Serilog: [serilog.net](https://serilog.net/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/main/.NetCore-Angualr-Diagram-App//SerilogREADME.md) 
-* Hangfire:  [hangfire.io](https://www.hangfire.io) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/main/.NetCore-Angualr-Diagram-App//HangfireREADME.md) 
-* Auto Mapper:  [automapper.org](https://automapper.org/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/main/.NetCore-Angualr-Diagram-App//AutoMapperREADME.md) 
+* Entity Freamwork Code First App: [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/LearnNetCoreWepAPI/Entity%20Framework)
+* JWT App: [jwt.io](https://jwt.io/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/LearnNetCoreWepAPI/LearnNetCoreWepAPI.Authorization)
+* Serilog: [serilog.net](https://serilog.net/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//SerilogREADME.md) 
+* Hangfire:  [hangfire.io](https://www.hangfire.io) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//HangfireREADME.md) 
+* Auto Mapper:  [automapper.org](https://automapper.org/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//AutoMapperREADME.md) 
 * Go JS Flowchart: [gojs.net](https://gojs.net/latest/samples/flowchart.html)
 /
