@@ -15,5 +15,9 @@ Steps
     
     -d: Detach, that's how you tell Docker to run containers in the background even if you close the current terminal session.
     -p: Port, here we map our port(4300) with nginx port(80)
+    -v: Volume bind local directory with nginx directory 
     ${pwd}: Current directory
 ```
+
+Now open http://localhost:4300
+and you can update index.html or style.css at any time and withot you need to restart container.
