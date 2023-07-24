@@ -7,8 +7,8 @@ Diagram App is a sample application to train on Angular 14 with the.net core 0.6
 #CodeFirst #SQL #Angualr.
 
 ## Main Apps
-[Back-End](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App/tree/master/BackEnd) <br>
-[Front-End](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App/tree/master/FrontEnd)
+[Back-End](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App/tree/master/BackEnd) <br>
+[Front-End](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App/tree/master/FrontEnd)
 
 How To Install And Run This Project?
 -----------------------------------------
@@ -42,21 +42,21 @@ How To Install And Run This Project?
 Pictures
 --------------------------------------------------------------------------------
 - Code
-<br>![EndPoints](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//Documentation/Code.png?raw=true)
+<br>![EndPoints](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Code.png?raw=true)
 - End Points
-<br>![EndPoints](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//Documentation/End%20Points.png?raw=true)
+<br>![EndPoints](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/End%20Points.png?raw=true)
 - Login Page
-<br> ![Login Page](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//Documentation/Login%20Page.png?raw=true)
+<br> ![Login Page](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Login%20Page.png?raw=true)
 - Empty List Page
-<br> ![Diagram Empty List Page](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//Documentation/Diagram%20List%20Page%20Empty.png?raw=true)
+<br> ![Diagram Empty List Page](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Diagram%20List%20Page%20Empty.png?raw=true)
 - List Page
-<br> ![Diagram List Page](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//Documentation/Diagram%20List%20Page.png?raw=true)
+<br> ![Diagram List Page](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Diagram%20List%20Page.png?raw=true)
 - Create Page
-<br> ![Diagram Create Page](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//Documentation/Diagram%20Create%20Page.png?raw=true)
+<br> ![Diagram Create Page](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Diagram%20Create%20Page.png?raw=true)
 - Diagram Downlaod Page
-<br> ![Diagram Downlaod Page](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//Documentation/Diagram%20Downlaod%20Page.png?raw=true)
+<br> ![Diagram Downlaod Page](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Diagram%20Downlaod%20Page.png?raw=true)
 - Downlaod File Example
-<br> ![Downlaod File Example](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//Documentation/Diagram%20Downlaod%20Example.png?raw=true)
+<br> ![Downlaod File Example](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//Documentation/Diagram%20Downlaod%20Example.png?raw=true)
 
 
 
@@ -65,10 +65,10 @@ See also
 
 The links provided below will assist you in understanding every aspect of this app. 
 
-* Entity Freamwork Code First App: [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/mainLearnNetCoreWepAPI/tree/master/Entity%20Framework)
-* JWT App: [jwt.io](https://jwt.io/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/mainLearnNetCoreWepAPI/tree/master/LearnNetCoreWepAPI.Authorization)
-* Serilog: [serilog.net](https://serilog.net/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//SerilogREADME.md) 
-* Hangfire:  [hangfire.io](https://www.hangfire.io) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//HangfireREADME.md) 
-* Auto Mapper:  [automapper.org](https://automapper.org/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main.NetCore-Angualr-Diagram-App//AutoMapperREADME.md) 
+* Entity Freamwork Code First App: [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/LearnNetCoreWepAPI/tree/master/Entity%20Framework)
+* JWT App: [jwt.io](https://jwt.io/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/LearnNetCoreWepAPI/tree/master/LearnNetCoreWepAPI.Authorization)
+* Serilog: [serilog.net](https://serilog.net/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//SerilogREADME.md) 
+* Hangfire:  [hangfire.io](https://www.hangfire.io) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//HangfireREADME.md) 
+* Auto Mapper:  [automapper.org](https://automapper.org/) - [README.md](https://github.com/ahmednageebmahmoud/Learn-By-Examples/tree/main/.NetCore-Angualr-Diagram-App//AutoMapperREADME.md) 
 * Go JS Flowchart: [gojs.net](https://gojs.net/latest/samples/flowchart.html)
 /
