@@ -1,0 +1,37 @@
+
+### Index Page
+GET http://localhost:3000
+
+### Create Employee
+POST http://localhost:3000/employee
+Content-Type: application/json
+
+{
+    "name":"Ahmed",
+    "age":28
+}
+
+### Update Employee
+PUT  http://localhost:3000/employee
+Content-Type: application/json
+
+{
+    "id":"64c019044a8645733e1e4cd5",
+    "name":"sezer",
+    "age":29
+}
+
+
+### Delete Employee
+DELETE  http://localhost:3000/employee
+Content-Type: application/json
+
+{
+    "id":"64c019044a8645733e1e4cd5"
+}
+
+### Get Employee
+GET  http://localhost:3000/employee/64c017d7bf6b64b06d3bf34d
+
+### Get Employees
+GET  http://localhost:3000/employee

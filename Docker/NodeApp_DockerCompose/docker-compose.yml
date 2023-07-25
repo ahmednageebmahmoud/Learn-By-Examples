@@ -1,0 +1,36 @@
+# Yml Version
+version: "3.9"
+
+services:
+  # Define Mongo DB Service With Any Custom Server Name, So I Named mongo_db_service Just As An Example To Learn
+  mongo_db_service:
+    # Optional but recommended: Add the container name.
+    container_name: mongo_db_container
+    # iamge you want to use with this service
+    image: mongo
+    # Optional but recommended: to restart container if faills for some reason at any point of time
+    restart: always
+    # Here we can create volumes and with and bind it with this container
+    volumes:
+      # Create a volume and bind it to the Mongo storage database path, if we don't do this, we may lose our data if mongo_db_container is restarted or removed at any time.
+      # Don't forget mongodb store the database in /data/db, so we bind this path with our new volume.
+      - mongo_db_volume:/data/db
+
+  # Define Node Api Service.
+  node_api_service:
+    # Tell docker compoese build this image depand on configration from ./Dockerfile
+    build: .
+    # Here We map local machine port(4000) on our contianer port(3000), Don't forget we add 3000 also in .env, must be equal together
+    ports:
+      - 4000:3000
+    # Copy .env variables to here to change with ouer service if we want like mongo_db_service
+    environment:
+      # We can use mongo_db_container or mongo_db_service
+      MONGO_URL: mongodb://mongo_db_container:27017
+    # Now we need tell to docker start this node_api_service after mongo_db_service, becuse we user mongo db in our app, so  must be mongo_db_service run first
+    depends_on:
+      - mongo_db_service
+
+volumes:
+  # If you want add volume options
+  mongo_db_volume: {}
