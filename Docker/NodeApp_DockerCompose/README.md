@@ -23,13 +23,13 @@ Steps
 ```
 
 3- Create rest.http to create post requests easyly by VSCODE
-```
     > touch rest.http
     then install (VS CODE Rest Client)[https://marketplace.visualstudio.com/items?itemName=humao.rest-client] if you want to test your apis from any file with .http extensions.
     exmaple:
-    ![EndPoints](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/main/docker/NodeApp_DockerCompose/images/rest-http.png)
-````
- 
+
+     ![EndPoints](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/main/docker/NodeApp_DockerCompose/images/rest-http.png)
+
+
 4- Fill Dockerfile
 ```
     ## Pull Node Image With Alpine Tag
@@ -50,14 +50,24 @@ Steps
 
 5- Fill docker-compose.yml 
 ```
-
+    Open [docker-compose.yml](docker-compose.yml)
 
 ```
 
 
-6- Docker compoes commands  
+6- Docker compose commands  
 ```
-    > docker compoes up
-    > docker compoes down
+    > docker build .
+    > docker compose up 
+    > docker compose up -d ## If you want keep docker running in background 
+    > docker compose down
 
+```
+
+7- Create Bind Mounting Volume With Nodemone To Auto Restart App If Change Any Nodejs File At Run Time  
+```
+    1- In DockerFile Use > CMD ["npm","run","dev"] Instead Of CMD [ "npm","start" ]
+    2- In docker-compose.yml In api searvice section create Mounting volume to bind all file with docker app path (WORKDIR)
+        volumes:
+        - .:/usr/source/myNodeApp
 ```

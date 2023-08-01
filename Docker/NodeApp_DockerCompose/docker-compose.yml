@@ -10,6 +10,11 @@ services:
     image: mongo
     # Optional but recommended: to restart container if faills for some reason at any point of time
     restart: always
+    # (Optional) If you want map local machin port with mongo container port to use locao machi poet to access from any whare to your docker mongodb, so 
+    # Now we can use mongodb://localhost:2717 to read or write in mongodb in our docker container, that is meam you will expose docker mongo db 
+    # now you can access from shell by > mongosh --port 2717
+    ports:
+      - 2717:27017
     # Here we can create volumes and with and bind it with this container
     volumes:
       # Create a volume and bind it to the Mongo storage database path, if we don't do this, we may lose our data if mongo_db_container is restarted or removed at any time.
@@ -23,6 +28,10 @@ services:
     # Here We map local machine port(4000) on our contianer port(3000), Don't forget we add 3000 also in .env, must be equal together
     ports:
       - 4000:3000
+    # (Opetional) If You Want To Create Mounting Bind To Auto Resart App If You Change Any Nodejs File
+    # Don't Forget You Must Be Use Nodemon To Watch Files And Restart App If Changed
+    volumes:
+      - .:/usr/source/myNodeApp
     # Copy .env variables to here to change with ouer service if we want like mongo_db_service
     environment:
       # We can use mongo_db_container or mongo_db_service

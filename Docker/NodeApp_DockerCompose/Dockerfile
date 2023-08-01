@@ -11,4 +11,5 @@ COPY . .
 RUN npm ci
 
 ## Start App
-CMD [ "npm","start" ]
+# CMD [ "npm","start" ]
+CMD ["npm","run","dev"]
