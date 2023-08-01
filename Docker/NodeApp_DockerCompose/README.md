@@ -24,7 +24,7 @@ Steps
 
 3- Create rest.http to create post requests easyly by VSCODE
     > touch rest.http
-    then install (VS CODE Rest Client)[https://marketplace.visualstudio.com/items?itemName=humao.rest-client] if you want to test your apis from any file with .http extensions.
+    then install [VS CODE Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) if you want to test your apis from any file with .http extensions.
     exmaple:
 
      ![EndPoints](https://raw.githubusercontent.com/ahmednageebmahmoud/Learn-By-Examples/main/docker/NodeApp_DockerCompose/images/rest-http.png)
