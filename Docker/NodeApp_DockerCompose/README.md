@@ -26,9 +26,9 @@ Steps
 ```
     > touch rest.http
     then install [VS CODE Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) if you want to test your apis from any file with .http extensions.
-```
     exmaple:
 ![End Points](https://github.com/ahmednageebmahmoud/Learn-By-Examples/blob/54fa38cdd79e199d6d6b8ba0622fb2db2667a592/Docker/NodeApp_DockerCompose/images/1-rest-http.png?raw=true)
+```
 
 
 4- Fill Dockerfile
